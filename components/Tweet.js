@@ -87,7 +87,7 @@ export default function Tweet({ data, id }) {
 
   return (
     <div
-      className="border-b border-gray-700"
+      className="border-b border-gray-700 cursor-pointer"
       onClick={() => router.push("/" + id)}
     >
       <TweetHeader
